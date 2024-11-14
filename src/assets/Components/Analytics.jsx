@@ -1,11 +1,12 @@
 import React from "react";
+import Laptop from "../assets/laptop.jpg" 
 
 const Analytics = () => {
   return (
     <div className="w-full bg-white text-black py-16 px-4">
       <div className=" max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div>
-          <img className=" w-[500px] mx-auto my-4" src={"/laptop.jpg"} alt="" />
+          <img className=" w-[500px] mx-auto my-4" src={Laptop} alt="" />
         </div>
 
         <div className=" flex flex-col  justify-center">

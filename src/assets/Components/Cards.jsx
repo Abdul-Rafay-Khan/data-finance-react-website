@@ -1,4 +1,7 @@
 import React from 'react'
+import Single from "../assets/single.png"
+import Double from "../assets/double.png"
+import Triple from "../assets/triple.png"
 
 const Cards = () => {
   return (
@@ -7,7 +10,7 @@ const Cards = () => {
 
             <div className=' w-full shadow-2xl  p-4 my-4 flex flex-col rounded-lg    ' >
                 
-                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={"/single.png"} alt="" />
+                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={Single} alt="" />
                 <p className=' font-bold text-2xl text-center'>Single User</p>
                 <h1 className=' py-4 font-bold text-4xl text-center'>149$</h1>
                
@@ -26,7 +29,7 @@ const Cards = () => {
 
             <div className=' w-full shadow-2xl  p-4 my-4 flex flex-col rounded-lg    ' >
                 
-                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={"/double.png"} alt="" />
+                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={Double} alt="" />
                 <p className=' font-bold text-2xl text-center'>Partnership</p>
                 <h1 className=' py-4 font-bold text-4xl text-center'>199$</h1>
                
@@ -45,7 +48,7 @@ const Cards = () => {
 
             <div className=' w-full shadow-2xl  p-4 my-4 flex flex-col rounded-lg    ' >
                 
-                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={"/triple.png"} alt="" />
+                <img className=' w-24 mx-auto  py-4 mt-[-3rem] bg-white' src={Triple} alt="" />
                 <p className=' font-bold text-2xl text-center'>Group Account</p>
                 <h1 className=' py-4 font-bold text-4xl text-center'>299$</h1>
                
